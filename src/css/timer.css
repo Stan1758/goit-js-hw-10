@@ -6,7 +6,11 @@ a:hover,
 a:visited,
 a:active,
 a:focus {
+  display: inline;
+  cursor: pointer;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
 .timer-container {
@@ -74,6 +78,19 @@ a:focus {
   color: #2e2f42;
 }
 .label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+.backlink {
+  display: inline;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
