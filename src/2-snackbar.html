@@ -13,24 +13,39 @@
     <div class="timer-container">
       <h1 class="label">Snackbar</h1>
       <form class="form">
-        <label>
+        <label class="label-snack">
           Delay (ms)
-          <input type="number" name="delay" required />
+          <input class="input-snack" type="number" name="delay" required />
         </label>
 
-        <fieldset>
+        <fieldset class="field-snask">
           <legend>State</legend>
-          <label>
-            <input type="radio" name="state" value="fulfilled" required />
-            Fulfilled
-          </label>
-          <label>
-            <input type="radio" name="state" value="rejected" required />
-            Rejected
-          </label>
+
+          <div>
+            <label>
+              <input
+                class="input-state"
+                type="radio"
+                name="state"
+                value="fulfilled"
+                required
+              />
+              Fulfilled
+            </label>
+            <label>
+              <input
+                class="input-state"
+                type="radio"
+                name="state"
+                value="rejected"
+                required
+              />
+              Rejected
+            </label>
+          </div>
         </fieldset>
 
-        <button type="submit">Create notification</button>
+        <button class="btn-snack" type="submit">Create notification</button>
       </form>
 
       <a class="backlink label" href="index.html">Exit</a>
