@@ -78,6 +78,10 @@ a:focus {
   color: #fff;
   border: none;
   margin-bottom: 16px;
+  cursor: pointer;
+}
+.btn-snack:hover {
+  background: #6c8cff;
 }
 .input-state {
   font-family: var(--font-family);
@@ -85,5 +89,8 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
+  cursor: pointer;
+}
+.label-2snack {
   cursor: pointer;
 }
